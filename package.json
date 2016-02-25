@@ -1,7 +1,7 @@
 {
-    "name": "observer",
+    "name": "logger",
     "version": "1.0.0",
-    "description": "A simple Observer Design Pattern implementation.",
+    "description": "An event based logger.",
     "main": "index.js",
     "scripts": {
         "test": "mocha",
@@ -9,26 +9,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/antoine-duchenet/observer.git"
+        "url": "git+https://github.com/antoine-duchenet/logger.git"
     },
     "keywords": [
-        "design",
-        "pattern",
-        "observer",
-        "subject",
-        "duplex",
         "event",
-        "notifer",
-        "emitter",
-        "listener",
-        "watcher"
+        "log"
     ],
     "author": "Antoine Duchenet <antoine.duchenet@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/antoine-duchenet/observer/issues"
+        "url": "https://github.com/antoine-duchenet/logger/issues"
     },
-    "homepage": "https://github.com/antoine-duchenet/observer#readme",
+    "homepage": "https://github.com/antoine-duchenet/logger#readme",
     "devDependencies": {
         "eslint": "^1.10.3",
         "eslint-config-airbnb": "^5.0.0",
