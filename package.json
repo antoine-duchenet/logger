@@ -1,0 +1,38 @@
+{
+    "name": "observer",
+    "version": "1.0.0",
+    "description": "A simple Observer Design Pattern implementation.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "doc": "node doc.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antoine-duchenet/observer.git"
+    },
+    "keywords": [
+        "design",
+        "pattern",
+        "observer",
+        "subject",
+        "duplex",
+        "event",
+        "notifer",
+        "emitter",
+        "listener",
+        "watcher"
+    ],
+    "author": "Antoine Duchenet <antoine.duchenet@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/antoine-duchenet/observer/issues"
+    },
+    "homepage": "https://github.com/antoine-duchenet/observer#readme",
+    "devDependencies": {
+        "eslint": "^1.10.3",
+        "eslint-config-airbnb": "^5.0.0",
+        "jsdoc": "^3.4.0",
+        "mocha": "^2.4.5"
+    }
+}
