@@ -21,6 +21,9 @@
         "url": "https://github.com/antoine-duchenet/logger/issues"
     },
     "homepage": "https://github.com/antoine-duchenet/logger#readme",
+    "dependencies": {
+        "observer": "git+https://github.com/antoine-duchenet/observer.git"
+    },
     "devDependencies": {
         "eslint": "^1.10.3",
         "eslint-config-airbnb": "^5.0.0",
